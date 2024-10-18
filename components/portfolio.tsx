@@ -234,7 +234,7 @@ export function PortfolioComponent() {
       {/* Contact Section */}
       <section className="bg-[#FFC300] text-[#0A192F] py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-8xl font-bold mb-12">CONTACT ME</h2>
+          <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-12">CONTACT ME</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <a
               href="mailto:Omkar395@gmail.com"
