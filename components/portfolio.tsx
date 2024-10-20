@@ -9,15 +9,29 @@ import {
   Linkedin,
   ExternalLink,
 } from 'lucide-react'
+import Link from '@/node_modules/next/link'
 
 export function PortfolioComponent() {
   return (
     <div className="bg-[#0A192F] min-h-screen text-[#CCD6F6] font-sans">
       {/* Header */}
       <header className="bg-[#FFC300] text-[#0A192F] p-8 sticky top-0 z-50">
-        <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-4xl font-bold tracking-tight">OMKAR REVANKAR</h1>
-          <p className="text-xl font-semibold">Frontend Developer</p>
+        <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+          <h1 className="text-4xl font-bold tracking-tight text-center sm:text-left">
+            OMKAR REVANKAR
+          </h1>
+          <div className="flex flex-col sm:flex-row sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <p className="text-xl font-semibold text-center sm:text-left">
+              Frontend Developer
+            </p>
+            <a
+              href="/omkar-revankar.pdf"
+              download="omkar-revankar.pdf"
+              className="bg-[#0A192F] text-[#FFC300] px-4 py-2 rounded-full text-lg font-semibold hover:bg-[#FFC300] hover:text-[#0A192F] transition-colors duration-300 text-center"
+            >
+              Resume
+            </a>
+          </div>
         </div>
       </header>
 
@@ -57,6 +71,30 @@ export function PortfolioComponent() {
                   FRONTEND DEV BY REACT BY NEXT BY TYPESCRIPT
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-[#0A192F]">
+        <div className="container mx-auto px-4">
+          <h2 className="text-8xl font-bold mb-12 text-center text-[#FFC300]">
+            Playground
+          </h2>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-12 bg-[#112240] p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="md:w-1/2">
+              <p className="text-xl mb-6 leading-relaxed">
+                This page is dedicated to helping developers relax and recharge
+                through mindfulness practices.
+              </p>
+            </div>
+            <div className="md:w-1/2 flex justify-center">
+              <Link
+                href="/mindfulness"
+                className="bg-[#FFC300] text-[#0A192F] px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#0A192F] hover:text-[#FFC300] transition-colors duration-300"
+              >
+                Go to Mindfulness Page
+              </Link>
             </div>
           </div>
         </div>
@@ -234,7 +272,9 @@ export function PortfolioComponent() {
       {/* Contact Section */}
       <section className="bg-[#FFC300] text-[#0A192F] py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-12">CONTACT ME</h2>
+          <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-12">
+            CONTACT ME
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <a
               href="mailto:Omkar395@gmail.com"
