@@ -78,9 +78,10 @@ export function PortfolioComponent() {
 
       <section className="py-20 bg-[#0A192F]">
         <div className="container mx-auto px-4">
-          <h2 className="text-8xl font-bold mb-12 text-center text-[#FFC300]">
+          <h2 className="text-6xl sm:text-7xl md:text-8xl font-bold mb-12 text-center text-[#FFC300]">
             Playground
           </h2>
+
           <div className="flex flex-col md:flex-row items-center justify-between gap-12 bg-[#112240] p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="md:w-1/2">
               <p className="text-xl mb-6 leading-relaxed">
