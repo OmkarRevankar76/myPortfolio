@@ -22,7 +22,7 @@ export function PortfolioComponent() {
           </h1>
           <div className="flex flex-col sm:flex-row sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
             <p className="text-xl font-semibold text-center sm:text-left">
-              Frontend Developer
+              Software Engineer
             </p>
             <a
               href="/omkar-revankar.pdf"
@@ -44,7 +44,7 @@ export function PortfolioComponent() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="md:w-1/2">
               <p className="text-xl mb-6 leading-relaxed">
-                Frontend Developer with 2+ years of specialized experience in
+                Software Engineer with 2+ years of specialized experience in
                 building high-performance web applications using React.js
                 ecosystem. Demonstrated expertise in reducing application load
                 times by 60% through advanced optimization techniques and
@@ -68,7 +68,7 @@ export function PortfolioComponent() {
               />
               <div className="absolute inset-0 flex items-center justify-center">
                 <p className="text-sm text-center max-w-[200px] text-[#0A192F] font-bold">
-                  FRONTEND DEV BY REACT BY NEXT BY TYPESCRIPT
+                  SOFTWARE DEV BY REACT BY NEXT BY TYPESCRIPT
                 </p>
               </div>
             </div>
@@ -325,7 +325,7 @@ export function PortfolioComponent() {
       <footer className="bg-[#0A192F] text-[#CCD6F6] py-8">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-2">OMKAR REVANKAR</h2>
-          <p className="text-xl">Frontend Developer</p>
+          <p className="text-xl">Software Engineer</p>
           <p className="mt-4 text-sm">
             © 2024 Omkar Revankar. All rights reserved.
           </p>
